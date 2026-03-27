@@ -1,0 +1,6 @@
+{
+  "name": "deimos_stop_button",
+  "description": "Adds a Stop Agent button to the chat input toolbar for terminating running agent tasks.",
+  "version": "1.0.0",
+  "settings_sections": []
+}

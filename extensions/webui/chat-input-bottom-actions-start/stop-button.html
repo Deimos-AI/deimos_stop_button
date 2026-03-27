@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script type="module">
+        import { store } from "/plugins/deimos_stop_button/webui/stop-store.js";
+    </script>
+</head>
+<body>
+    <div x-data>
+        <template x-if="$store.stopButton">
+            <button class="text-button stop-button"
+                    x-move-before="#nudges_window"
+                    @click="$confirmClick($event, () => $store.stopButton.stopAgent())">
+                <span class="material-symbols-outlined" style="font-size: 14px;">stop_circle</span>
+                <p>Stop Agent</p>
+            </button>
+        </template>
+        <style>
+            .text-button.stop-button { color: #ff4444; }
+            .text-button.stop-button:hover:not(:disabled) { background-color: rgba(255, 68, 68, 0.1); }
+        </style>
+    </div>
+</body>
+</html>
