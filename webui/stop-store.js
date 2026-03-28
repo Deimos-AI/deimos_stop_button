@@ -12,7 +12,7 @@ export const store = createStore("stopButton", {
                 globalThis.toast("Stopping agent...", "info");
             }
             const result = await globalThis.sendJsonData(
-                "/api/plugins/deimos_stop_button/stop",
+                "/api/plugins/deimos_stop_agent/stop",
                 { context }
             );
             // Reset pause state on the chatInput store
