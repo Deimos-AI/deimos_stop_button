@@ -1,4 +1,4 @@
-# Deimos Stop Button
+# DeimosAI Stop Button
 
 Adds a **Stop Agent** button to the Agent Zero chat input toolbar, allowing users to immediately terminate running agent tasks.
 
@@ -82,7 +82,7 @@ deimos_stop_button/
 
 ## Requirements
 
-- Agent Zero v2.x
+- Agent Zero v1.3
 
 ## License
 

@@ -1,5 +1,5 @@
 name: deimos_stop_button
-title: Stop Button
+title: DeimosAI Stop Button
 description: Adds a Stop Agent button to the chat input toolbar for terminating running agent tasks.
 version: 1.0.0
 settings_sections: []
