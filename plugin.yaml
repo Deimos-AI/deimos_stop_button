@@ -3,3 +3,6 @@ title: Stop Button
 description: Adds a Stop Agent button to the chat input toolbar for terminating running agent tasks.
 version: 1.0.0
 settings_sections: []
+per_project_config: false
+per_agent_config: false
+always_enabled: false
